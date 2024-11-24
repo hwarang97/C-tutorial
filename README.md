@@ -16,3 +16,6 @@ book link: https://product.kyobobook.co.kr/detail/S000202252289
 ## What is Next?
 1. Algorithm, Data structure
 2. Python(OOP)
+
+## What i want to do with C?
+1. make simple project (TBD)
