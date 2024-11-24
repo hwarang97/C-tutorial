@@ -4,7 +4,7 @@ This directory containing C tutorials is made for hubby.
 book link: https://product.kyobobook.co.kr/detail/S000202252289
 
 
-## Why should i learning C language?   
+## Why do i learn C language?   
 1. Just for hubby.
 2. Better understaning for low-level.
 3. Understanding difference with procedural language and object oriented langauge like python.
