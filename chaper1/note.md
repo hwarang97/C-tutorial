@@ -24,3 +24,4 @@ Compile is process to convert source code to machine code to execute source code
 
 ## Learning programming is like leaning rules
 1. C program must have 'main' function.
+2. ; must be end of sentence.
