@@ -21,3 +21,6 @@ Compile is process to convert source code to machine code to execute source code
 |**Scope**         |Only convert source code to object file| Involving compiling, lingking, creating source code to executable|
 |**Output**        |.obj                                   |.exe                                                              |
 
+
+## Learning programming is like leaning rules
+1. C program must have 'main' function.
