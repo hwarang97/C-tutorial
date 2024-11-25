@@ -14,7 +14,7 @@ Machine code is written 0, 1 for computer which is operated by 0,1 signal. Cause
 Compile is process to convert source code to machine code to execute source code by computer.
 
 
-## What is difference with compiel and build?
+## What is difference with compile and build?
 
 |Aspect            |Compile                                |Build                                                             |
 |------------------|---------------------------------------|------------------------------------------------------------------|
