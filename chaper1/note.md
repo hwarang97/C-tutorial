@@ -41,3 +41,13 @@ printf('asd123\tqwe\n'); # asd123  qwe
 ```
 
 So if you want to print pretter, you can use \t control charater.
+
+
+## Use format specifier when you write number instead of string
+Function 'printf' show value as string type by default. If you want to show number instead of string, Use format specifier like %d.
+|type    |format spcifier|
+|--------|---------------|
+|integer | %d            |
+|float   | %lf           |
+
+
