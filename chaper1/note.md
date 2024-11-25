@@ -31,16 +31,35 @@ Compile is process to convert source code to machine code to execute source code
 If you write #include <stdio.h> in top of source file, this means copy stdio.h file and pasete it into your source file.
 
 
-## /t control character move cursor to head of next section.
+## What is control character?
+Control character like \t, \n, \r, \b is character for special function. Control character is used in output statement to control output format.
+|Control charactor |function                             |
+|------------------|-------------------------------------|
+|\t                |move cuusor to head of next section  |           
+|\n                |new line                             |
+|\r                |move cursor to head of line          |
+|\b                |move cursor left                     |
+
+
+## '\r' overwrite output statment
+```c
+printf("Hello world!\n"); // Hello world!
+printf("Be\bHappy!\n");   // BHappy!
+printf("Be\rHappy!\n");   // Happy!
+```
+\b move cursor left. Then, overwrite e with H.   
+Control character \r move cursor to head of line. Then, overwrite Be with Ha.
+
+## \t control character move cursor to head of next section.
 Each section is consisted of 8 spaces. /t means to move cursor to head of next section. Position of 'qwe' is same as you write  printf('asd\tqwe'); or print('asd123\tqwe');.
 
 ```c
-printf('1234567890')     # 1234567890
-printf('asd\tqwe\n');    # asd     qwe
-printf('asd123\tqwe\n'); # asd123  qwe
+printf('1234567890')     // 1234567890
+printf('asd\tqwe\n');    // asd     qwe
+printf('asd123\tqwe\n'); // asd123  qwe
 ```
 
-So if you want to print pretter, you can use \t control charater.
+So if you want to print like table, you can use \t control charater.
 
 
 ## Use format specifier when you write number instead of string
