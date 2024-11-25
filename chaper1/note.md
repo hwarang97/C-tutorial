@@ -25,3 +25,19 @@ Compile is process to convert source code to machine code to execute source code
 ## Learning programming is like leaning rules
 1. C program must have 'main' function.
 2. ; must be end of sentence.
+
+
+## '#include header file' means copy header file and paste it into source file.
+If you write #include <stdio.h> in top of source file, this means copy stdio.h file and pasete it into your source file.
+
+
+## /t control character move cursor to head of next section.
+Each section is consisted of 8 spaces. /t means to move cursor to head of next section. Position of 'qwe' is same as you write  printf('asd\tqwe'); or print('asd123\tqwe');.
+
+```c
+printf('1234567890')     # 1234567890
+printf('asd\tqwe\n');    # asd     qwe
+printf('asd123\tqwe\n'); # asd123  qwe
+```
+
+So if you want to print pretter, you can use \t control charater.
