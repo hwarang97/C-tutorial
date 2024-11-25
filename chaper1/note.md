@@ -12,3 +12,12 @@ Source code is documnet for human. For better readiblity, document is written by
 ## Why is machine code need?
 Machine code is written 0, 1 for computer which is operated by 0,1 signal. Cause hardware-level implement, only 2 signal is efficent than 10 signal called decimall. Decimal is used in source code which is written for human. Binary is used in machine code.   
 Compile is process to convert source code to machine code to execute source code by computer.
+
+
+## What is difference with compiel and build?
+
+|Aspect            |Compile                                |Build                                                             |
+|------------------|---------------------------------------|------------------------------------------------------------------|
+|**Scope**         |Only convert source code to object file| Involving compiling, lingking, creating source code to executable|
+|**Output**        |.obj                                   |.exe                                                              |
+
