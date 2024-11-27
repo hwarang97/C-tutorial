@@ -80,3 +80,7 @@ ASCII stnads for American Standard Code for Information Interchage. It's just ru
 
 There's rule. Lower case character has bigger value than uppder case character. Also, the difference between uppder and lower character is alwats 32.
 
+
+## How does computer distinguish character A and interger 65?
+Character A and interger 65 has same binary value. But, computer can distinguish them by data type. Data type defines size of memory allocation and how to read. By data type, computer can distinguish character A and interger 65 internally.
+
