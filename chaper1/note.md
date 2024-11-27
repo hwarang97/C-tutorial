@@ -71,7 +71,7 @@ Function 'printf' show value as string type by default. If you want to show numb
 
 
 ## What is ASCII code?
-ASCII stnads for American Standard Code for Information Interchage. It's just rule to presenet character by bits. ASCII defines 128 character by 7bits. This is used to communicate with other devices. When memory resource is limited and transmission was very slow, just 7 bits is prarical to present alphabet.
+ASCII stnads for American Standard Code for Information Interchage. It's just rule to presenet character by bits. ASCII defines 128 character by 7bits. This is used to communicate with other devices. When memory resource is limited and transmission was very slow, just 7 bits were practical to present alphabet.
 
 |Character|binary |decimal|
 |---------|-------|-------|
