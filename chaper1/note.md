@@ -82,7 +82,7 @@ There's rule. Lower case character has bigger value than uppder case character. 
 
 
 ## How does computer distinguish character A and interger 65?
-Compiler decide how to read value by data type. If 65 is stored in int type variable, compiler knows 65 is integer value. But if 65 is stored in char type variabel, then compiler can't distinguish both. Character 'A' and interger 65 has same binary value. If you use char data type(1byte), there's no way to distinguish both by value. But, we can distuguish both in context.
+Compiler decide how to read value by data type. If 65 is stored in int type variable, compiler knows 65 is integer value. But if 65 is stored in char type variabel, then compiler can't distinguish both. Character 'A' and interger 65 has same binary value. If you use char data type(1byte), there's no way to distinguish both by value. But, we can distuguish both in context. Char data type is data type of interger. But, char data type is compatiable with ASCII. Char data type is allowcated 1 byte which can represent 0~127. This is reason why char data type is used to represent character value.
 ```c
 char test = 65;
 printf("as char: %c", test); // A
