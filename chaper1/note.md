@@ -86,5 +86,5 @@ Compiler decide how to read value by data type. If 65 is stored in int type vari
 ```c
 char test = 65;
 printf("as char: %c", test); // A
-print("as integer: %d", test); // 65
+printf("as integer: %d", test); // 65
 ```
