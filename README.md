@@ -19,4 +19,5 @@ book link: https://product.kyobobook.co.kr/detail/S000202252289
 3. C++
 
 ## What i want to do with C?
-1. make simple project (TBD)
+1. make snake game (https://m.blog.naver.com/azure0777/220282982693)
+2. make simple interpreter (https://github.com/fabianishere/brainfuck)
