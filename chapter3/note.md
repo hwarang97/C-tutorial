@@ -23,4 +23,4 @@ Computer is usaully 64bit architecture not 32bit. In search, there are two reaso
 1. Compataibility with old code
 2. 64bit architecture also provide 32bit operations
 
-I think memory size is not related with promotion. When type is promoted, register bit is filled with zero or one whether assembly command. It does not affect to memeroy.
+I think memory size is not related with promotion. When type is promoted, register bit is filled with zero or one whether assembly command. It does not affect to memeory.
