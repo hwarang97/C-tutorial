@@ -18,7 +18,7 @@ link: https://www.idryman.org/blog/2012/11/21/integer-promotion/
 In assembly level, char or short data type value is stored in 32bit(resister) then calculated. So data type which is smaller than int type is promoted to int type when these type variable is calcultated or used as parameter. 
 
 
-## Why is it promoted to int type not long type?
+## Why is it promoted to int type not long long type?
 Computer is usaully 64bit architecture not 32bit. In search, there are two reasons that C compiler converts these two type to int.
 1. Compataibility with old code
 2. 64bit architecture also provide 32bit operations
