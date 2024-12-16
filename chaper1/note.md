@@ -41,6 +41,19 @@ Control character like \t, \n, \r, \b is character for special function. Control
 |\b                |move cursor left                     |
 
 
+## What is difference between %f and %lf?
+There's no difference between %f and %lf in printf. In printf fucntion, compiler promotes float type to double type like integer promotion. But When you use scanf function, %f read data as float type and %lf read data as double type.
+```c
+int income = 0;
+double tax;
+const double tax_rate = 0.12;
+
+income = 456;
+tax = income * tax_rate; /// 54.72
+printf("tax : %.2lf\n", tax); /// 54.72
+```
+
+
 ## '\r' overwrite output statment
 ```c
 printf("Hello world!\n"); // Hello world!
