@@ -1,5 +1,5 @@
 # Requirements
-1. Display
+1. __Display__
     - walls
     - feed
     - snake
@@ -7,7 +7,7 @@
     - play time
   
     In prompt, 
-2. User input
+2. __User input__
     - arrow key: move 
     - p: pause
     - esc: exit   
@@ -15,7 +15,7 @@
     User preeses arrow key to control snake. When user press 'p', game is paused. When user press 'esc', game is done.
 
     
-3. Game logic
+3. __Game logic__
     - snake move
     - collision
     - grow
