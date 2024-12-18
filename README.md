@@ -20,4 +20,6 @@ book link: https://product.kyobobook.co.kr/detail/S000202252289
 
 ## What i want to do with C?
 1. make snake game (https://m.blog.naver.com/azure0777/220282982693)
+    - my project link : https://github.com/hwarang97/snake_game   
+
 2. make simple interpreter (https://github.com/fabianishere/brainfuck)
