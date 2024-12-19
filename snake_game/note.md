@@ -1,13 +1,33 @@
 # Requirements
 1. __Display__
-    - walls
-    - feed
-    - snake
-    - score
-    - play time
+   ---
+   |Symbol            |Description |
+   | :--------------- | :--------- |
+   |#                 |wall        |
+   |0                 |feed        |
+   |@                 |snake's head|
+   |o                 |snake's tail|           
   
-    In prompt, 
-2. __User input__
+   Board can be created by quadratic array.
+   - First and Last ros is filled with '#'.
+   - First and Last col is filled with '#'.
+   - Other elements is filled with ' '.   
+  
+   Snake's is located center at first.
+   - Center position(ROW//2, COL//2) of array is filled with '@'.
+  
+   Snake's tail is located right side of the head.
+   - Right side of center(ROW//2, COL//2 + 1) of array is filled with 'o'.
+   
+   Feed is randomly created in board.
+   - Select random row, col by random library.
+   - Feed is not created on wall, snake. Check board[row][col] == ' '.
+  
+   Display Board
+   - make display_board function.
+
+3. __User input__
+   ---
     - arrow key: move 
     - p: pause
     - esc: exit   
@@ -15,7 +35,8 @@
     User preeses arrow key to control snake. When user press 'p', game is paused. When user press 'esc', game is done.
 
     
-3. __Game logic__
+4. __Game logic__
+   ---
     - snake move
     - collision
     - grow
