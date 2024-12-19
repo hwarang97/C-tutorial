@@ -1,5 +1,5 @@
 # Requirements
-1. __Display__
+1. Display
    ---
    |Symbol            |Description |
    | :--------------- | :--------- |
@@ -26,7 +26,7 @@
    Display Board
    - make display_board function.
 
-3. __User input__
+2. User input
    ---
     - arrow key: move 
     - p: pause
@@ -35,7 +35,7 @@
     User preeses arrow key to control snake. When user press 'p', game is paused. When user press 'esc', game is done.
 
     
-4. __Game logic__
+3. Game logic
    ---
     - snake move
     - collision
@@ -44,5 +44,3 @@
     - score
 
 Snake moving direction is depends on pressed arrow key. If there is no arrow key input, snake keeps going one direction. When snake have feed, snake is longer, speed up and score is counted. When snake encounters with self or wall, game is over.
-
-## How can i draw walls in prompt?
