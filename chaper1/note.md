@@ -80,7 +80,7 @@ Function 'printf' show value as string type by default. If you want to show numb
 |type    |format spcifier|
 |--------|---------------|
 |integer | %d            |
-|float   | %lf           |
+|float   | %f           |
 
 
 ## What is ASCII code?
